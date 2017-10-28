@@ -6,6 +6,10 @@ nav{
        
 }
 
+h3{
+    color: black;
+}
+
 section{
       
 }
@@ -51,34 +55,62 @@ section{
     background-color: black;
     float: left;
     border: 1px solid black;
+    position: relative;
 }
 
 .blue-overlay{
-    background-color: rgba(0,0,255,0);
+    background-color: blue;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: 3;
+    opacity: .5;
+}
+.blue-gradient{
+    background: blue;
+    background: -webkit-linear-gradient(left top, red, yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+.intro_block_alt{
+    background-color: aqua;
+}
+.clear{
+    clear: both;
 }
 #topright{
-    background-color: blue;
+    background-image: url('/images/boat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #topleft{
-    background-color: yellow;
+    background-image: url('/images/glasses.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #botleft{
-    background-color: blue;
+    background-image: url('/images/heart.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #botright{
-    background-color: yellow;
-}
-
-.clear{
-    clear: both;
+    background-image: url('/images/shoes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #icon{
@@ -92,4 +124,16 @@ section{
     overflow: hidden; 
     top: 33%;
     left: 46%
+}
+.text_layer{
+    position: relative;
+    z-index: 4;
+    width: 100;
+}
+
+.text_layer h3{
+    color: white;
+    text-align: center;
+    width: 100;
+    margin-top: 100;
 }
