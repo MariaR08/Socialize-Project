@@ -15,7 +15,7 @@ section{
 }
 
 #menu{
-    background-color: blue 
+    background-color: blue; 
 }
 .nav_wrap{
     display: table;
@@ -58,8 +58,15 @@ section{
     position: relative;
 }
 
+#fact p{
+    color: #fff;
+    font-size: 22px;
+    padding: 30px;
+    font-weight 100;
+    text-align: center;
+}
 .blue-overlay{
-    background-color: blue;
+    background-color: orange;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,8 +76,7 @@ section{
     opacity: .5;
 }
 .blue-gradient{
-    background: blue;
-    background: -webkit-linear-gradient(left top, red, yellow);
+    background: pink;
     position: absolute;
     top: 0;
     left: 0;
